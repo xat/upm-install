@@ -1,6 +1,6 @@
 # upm-install
 
-upm-install ist a small utility which allows you to install add-on for JIRA and Confluence
+upm-install ist a small utility which allows you to install add-ons for JIRA and Confluence
 cloud. It can be used as cli or as library.
 
 ### installation
