@@ -47,7 +47,7 @@ module.exports = function ({ descriptorUrl, productUrl, username, password }) {
 
             if (status && status.done &&
               status.contentType === 'application/vnd.atl.plugins.task.install.err+json') {
-              reject(body)
+              return reject(body)
             }
 
             resolve(body)
