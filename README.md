@@ -19,7 +19,7 @@ cloud. It can be used as cli or as library.
 
 ### usage library
 
-```
+```JavaScript
   const upmInstall = require('upm-install')
 
   upmInstall({
