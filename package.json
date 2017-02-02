@@ -1,0 +1,27 @@
+{
+  "name": "upm-install",
+  "version": "1.0.0",
+  "description": "atlassian cloud add-on installer",
+  "main": "index.js",
+  "bin": {
+    "upm-install": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xat/upm-install.git"
+  },
+  "author": "Simon Kusterer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xat/upm-install/issues"
+  },
+  "homepage": "https://github.com/xat/upm-install#readme",
+  "dependencies": {
+    "got": "^6.7.1",
+    "minimist": "^1.2.0",
+    "ora": "^1.1.0"
+  }
+}
