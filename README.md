@@ -15,6 +15,9 @@ cloud. It can be used as cli or as library.
       --productUrl <url>
       --username <username>
       --password <password>
+      
+  # example with ngrok.io and atlassian cloud dev instance
+  upm-install --descriptorUrl https://12345.ngrok.io/atlassian-connect.json --productUrl https://example.atlassian.net --username xx --password yy
 ```
 
 ### usage library
