@@ -20,6 +20,6 @@ upmInstall(opts)
   .then(function (res) {
     spinner.succeed(`successfully installed add-on '${res.name}'`)
   })
-  .catch(function () {
-    spinner.fail(`failed to install add-on`)
+  .catch(function (err) {
+    spinner.fail(`failed to install add-on. reason: ${err}`)
   })
