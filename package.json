@@ -1,6 +1,6 @@
 {
   "name": "upm-install",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "atlassian cloud add-on installer",
   "main": "index.js",
   "bin": {
